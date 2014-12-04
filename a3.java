@@ -1646,7 +1646,7 @@ Tuple<Integer> b4exp = new Tuple<Integer>(0, 0);
 		}
 
 		public void paint(Graphics g, int offs0, int offs1, Shape bounds, JTextComponent c) {
-		  // Do nothing: this method will never be called
+			// Do nothing: this method will never be called
 		}
 
 		public Shape paintLayer(Graphics g, int offs0, int offs1, Shape bounds, JTextComponent c, View view)
