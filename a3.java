@@ -453,7 +453,7 @@ class TextEditorFrame extends JFrame implements ActionListener, ChangeListener, 
 						int replaceResponse = JOptionPane.showConfirmDialog(this, "The file '" + file.getName() +
 								"' already exists.\nDo you want to replace it?", "Save As", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
 						if (replaceResponse == JOptionPane.NO_OPTION)
-						   continue;		// Bring up the file chooser again and let the user select another file or cancel
+							continue;		// Bring up the file chooser again and let the user select another file or cancel
 					}
 					BufferedWriter bw = new BufferedWriter(new FileWriter(file));
 					textPane.write(bw);
