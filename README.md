@@ -10,7 +10,7 @@ Features
 
 -	Quick find panel with result highlighting and counting.
 	-	Design inspired by original release of Chrome browser.
--	Mispelled word underlining.
+-	Misspelled word underlining.
 	-	Spelling correction suggestions.
 	-	Ability to "Ignore All" and "Add to Dictionary".
 -	Java syntax highlighting.
