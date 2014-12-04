@@ -678,7 +678,7 @@ Tuple<Integer> b4exp = new Tuple<Integer>(0, 0);
 		{
 			// Remove Java keyword highlighting
 			textPane.getStyledDocument().setCharacterAttributes(0, textPane.getStyledDocument().getLength(), textPane.getStyledDocument().getDefaultRootElement().getAttributes(), true);
-			
+
 			// Remove bracket highlighting
 			Highlighter.Highlight[] highlights = highlighter.getHighlights();
 			for (int i = 0; i < highlights.length; ++i) {
@@ -780,7 +780,7 @@ Tuple<Integer> b4exp = new Tuple<Integer>(0, 0);
 				shouldBeHighlighted = null;
 			}
 		}
-		
+
 		// Bracket highlighter/matcher
 		if (highlightingButtonGroup.getSelection() == javaSourceCodeMenuItem.getModel())		// Java Source Code Syntax Highlighting
 		{
@@ -802,8 +802,8 @@ Tuple<Integer> b4exp = new Tuple<Integer>(0, 0);
 
 	private int isBracket(char ch)
 	{
-		final String openBracket = "{([";
-		final String closeBracket = "})]";
+		final String openBracket = "{([<";
+		final String closeBracket = "})]>";
 		int bracket;
 
 		if ((bracket = openBracket.indexOf(ch) + 1) != 0)
@@ -1234,7 +1234,7 @@ Tuple<Integer> b4exp = new Tuple<Integer>(0, 0);
 		textPane = new JTextPane();
 		//textPane.setEditorKit(new WrapEditorKit());
 		textPane.setDragEnabled(true);
-		textPane.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 13));
+		textPane.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 10));
 		////textArea.setTabSize(defaultTabSize);
 		////textArea.setWrapStyleWord(true);		// Wrap lines at word boundaries (whitespace)
 		//textPane.setColumns(80);
