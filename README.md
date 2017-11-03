@@ -22,8 +22,8 @@ Features
 Screenshots
 -----------
 
-![](Screenshot 1.png)
+![](Screenshot%201.png)
 
-![](Screenshot 2.png)
+![](Screenshot%202.png)
 
-![](Screenshot 3.png)
+![](Screenshot%203.png)
